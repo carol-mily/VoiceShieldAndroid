@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:launchMode="singleTop"
+    android:background="@drawable/image_back"
+    tools:context=".HomePage">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recordRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingButton_fresh"
+        android:layout_width="82dp"
+        android:layout_height="87dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="80dp"
+        android:clickable="true"
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingbutton_search"
+        android:layout_width="82dp"
+        android:layout_height="87dp"
+        android:layout_above="@+id/floatingButton_fresh"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/search" />
+
+    <Button
+        android:id="@+id/HomePage_button"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:backgroundTint="#22029A8C"
+        android:text="主页"
+        android:textColor="@color/black"
+        android:layout_alignRight="@+id/strut"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/PersonalPlace_button"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:backgroundTint="#22029A8C"
+        android:text="个人中心"
+        android:textColor="@color/black"
+        android:layout_alignLeft="@+id/strut"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <View
+        android:id="@+id/strut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

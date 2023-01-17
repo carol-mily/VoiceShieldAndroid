@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:launchMode="singleTask"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:id="@+id/photo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton_boy1"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/boy1"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/imageButton_boy2"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/boy2"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/imageButton_boy3"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/boy3"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/photo2"
+        android:layout_below="@+id/photo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton_genshin1"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/genshin1"
+            android:layout_weight="1"
+            />
+        <ImageButton
+            android:id="@+id/imageButton_genshin2"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/genshin2"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/imageButton_genshin3"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/genshin3"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/photo3"
+        android:layout_below="@id/photo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton_genshin4"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/genshin4"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/imageButton_genshin5"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/genshin5"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/imageButton_myface"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+
+            app:srcCompat="@drawable/myface"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
